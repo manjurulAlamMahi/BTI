@@ -1,0 +1,42 @@
+/* ################# CSS ANIMATION START ################ */
+/* typewriter animation */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 87%;
+    }
+
+    100%{
+        width: 0;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #fff;
+    }
+}
+/* Play Button Rotation */
+@keyframes rotated {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* typewriter animation */
+/* ################# CSS ANIMATION END ################ */
